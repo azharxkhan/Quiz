@@ -7,7 +7,7 @@ const questions = [
     { question: "What's a perfect Valentines Gift for you?", answer: "You", reply: "Me, I'm the only gift for you bc I'm perfect for you", rightGif: "right_answer_1.gif", wrongGif: "wrong_answer_1.gif" },
     { question: "Where do you want to be right now", answer: "With you", reply: "You should always want to be with me Silly", rightGif: "right_answer_2.gif", wrongGif: "wrong_answer_2.gif" },
     { question: "Who is your Bessst Friienndd?", answer: "You", reply: "Me, You Have No Other Friends", rightGif: "right_answer_3.gif", wrongGif: "wrong_answer_3.gif" },
-    { question: "If you could choose a superpower, what would it be?", answer: "Making you simle", reply: "Making me simle Dummy", rightGif: "right_answer_4.gif", wrongGif: "wrong_answer_4.gif" },
+    { question: "If you could choose a superpower, what would it be?", answer: "Making you smile", reply: "Making me smile Dummy", rightGif: "right_answer_4.gif", wrongGif: "wrong_answer_4.gif" },
     { question: "What should be the best part of your morning?", answer: "Seeing your face", reply: "be seeing my face baby, don't you want to wake up next to the love of your life", rightGif: "right_answer_5.gif", wrongGif: "wrong_answer_5.gif" },
 ];
 
@@ -62,7 +62,7 @@ function buildQuiz() {
                 quizContainer.appendChild(endImage);
             }
             
-        }, 10000); // Delay for 5 seconds
+        }, 5000); // Delay for 5 seconds
     }
     
     answerInput.addEventListener('keypress', function(event) {
