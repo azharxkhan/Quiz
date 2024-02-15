@@ -62,13 +62,19 @@ function buildQuiz() {
                 quizContainer.appendChild(endImage);
             }
             
-        }, 5000); // Delay for 5 seconds
+        }, 10000); // Delay for 10 seconds
     }
+    
     
     answerInput.addEventListener('keypress', function(event) {
         if (event.key === 'Enter') {
             answerQuestion(); // Answer the question when Enter is pressed
         }
+    });
+    
+    submitButton.addEventListener('click', function(event) {
+        answerQuestion(); // Answer the question when submit button is clicked
+    
     });
 }
 
@@ -80,5 +86,7 @@ function showGif(gifPath) {
     gifImage.style.display = 'block'; // Show the GIF
     quizContainer.appendChild(gifImage);
 }
+
+
 
 buildQuiz();
