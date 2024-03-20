@@ -31,8 +31,6 @@ Feel free to customize the quiz by adding more personalized questions, witty res
 - **Background Image**: [Giphy](https://giphy.com/)
 - **Fonts**: [Google Fonts](https://fonts.google.com/)
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Enjoy the Valentine's Day quiz and celebrate your love with laughter, affection, and unforgettable moments! 💕🎉
