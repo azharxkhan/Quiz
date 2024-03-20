@@ -65,7 +65,6 @@ function buildQuiz() {
         }, 10000); // Delay for 10 seconds
     }
     
-    
     answerInput.addEventListener('keypress', function(event) {
         if (event.key === 'Enter') {
             answerQuestion(); // Answer the question when Enter is pressed

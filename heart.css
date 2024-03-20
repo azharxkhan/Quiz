@@ -71,30 +71,29 @@ input[type="text"] {
 
 #result {
     font-weight: bold;
-    margin-top: 30px; /* Add more space at the top */
-    color: #ff5e7e; /* Pink text color */
-    font-size: 20px; /* Larger font size */
+    margin-top: 30px; 
+    color: #ff5e7e; 
+    font-size: 20px; 
 }
 
 footer {
-    background-color: #77d4e2; /* Light blue background color for the footer */
+    background-color: #77d4e2; 
     padding: 15px 0;
     text-align: center;
-    flex-shrink: 0; /* Prevent the footer from shrinking */
-    margin-top: auto; /* Push the footer to the bottom */
-    margin-bottom: 25px; /* Add margin at the bottom */
+    flex-shrink: 0; 
+    margin-top: auto; 
+    margin-bottom: 25px; 
 }
 
 footer p {
     margin: 0;
-    color: #fff; /* White text color for the footer content */
+    color: #fff; 
 }
 
-
 #finished-image {
-    width: 10px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px; /* Add some space below the image */
+    width: 10px; 
+    height: auto; 
+    margin-bottom: 10px; 
 }
 
 #gif-container {
@@ -105,13 +104,13 @@ footer p {
 
 #gif-text {
     font-size: 10px;
-    color: #ff5e7e; /* Pink text color */
+    color: #ff5e7e; 
     font-weight: bold;
-    margin-left: 10px; /* Add some space between the GIF and text */
+    margin-left: 10px; 
 }
 
 #end-message {
     font-size: 20px;
-    color: #e62a2a; /* Bright red color */
-    font-family: 'Pacifico', cursive; /* Girlish font */
+    color: #e62a2a; 
+    font-family: 'Pacifico', cursive; 
 }
